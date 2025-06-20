@@ -6,14 +6,6 @@ import App from './App.vue';
 import router, { setupRouter } from './router';
 import { setupStore } from '@/store';
 
-// import { neon } from '@netlify/neon';
-// const sql = neon('postgresql://kedouzhihuiDB_owner:npg_tHU2FgQCOIA5@ep-shy-sunset-a8hk884g-pooler.eastus2.azure.neon.tech/kedouzhihuiDB?sslmode=require'); // automatically uses env NETLIFY_DATABASE_URL
-// await sql`INSERT INTO public.classify_list (name, icon) VALUES ('React', '');`;
-// await sql`DELETE FROM public.classify_list WHERE NAME = 'React';`;
-// const classifyList = await sql`SELECT * FROM classify_list`;
-// console.log('classifyList',classifyList);
-// const questionList = await sql`SELECT * FROM question_list`;
-// console.log('questionList',questionList);
 
 async function bootstrap() {
   const app = createApp(App);
